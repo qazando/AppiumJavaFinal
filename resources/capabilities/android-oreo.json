@@ -1,0 +1,10 @@
+{
+  "platformName": "Android",
+  "deviceName": "Herbert",
+  "platformVersion": "8.0",
+  "automationName": "UiAutomator2",
+  "udid": "emulator-5554",
+  "avd": "Herbert",
+  "fullReset": true,
+  "newCommandTimeout": 5
+}
