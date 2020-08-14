@@ -22,7 +22,7 @@ public class LoginScreen extends BaseScreen {
     @AndroidFindBy(id = "mensagem2")
     private MobileElement homeAplicativo;
 
-    public void validarInicio()qaqa {
+    public void validarInicio() {
         this.btnLogin.isDisplayed();
     }
 
