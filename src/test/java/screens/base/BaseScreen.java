@@ -1,20 +1,17 @@
 package screens.base;
 
+import capabilities.DriverFactoryManager;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.TouchAction;
-
-import java.util.HashMap;
-
+import io.appium.java_client.pagefactory.AppiumFieldDecorator;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.remote.RemoteWebElement;
 import org.openqa.selenium.support.PageFactory;
-
-import io.appium.java_client.pagefactory.AppiumFieldDecorator;
-import capabilities.DriverFactoryManager;
-
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+
+import java.util.HashMap;
 
 
 public abstract class BaseScreen extends MobileElement {

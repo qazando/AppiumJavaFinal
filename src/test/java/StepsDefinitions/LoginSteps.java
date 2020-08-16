@@ -20,13 +20,12 @@ public class LoginSteps {
     }
 
     @Quando("^informo um usuario valido$")
-    public void informoUmUsuarioValido() {
+    public void informoumusuariovalido() {
         this.login.logar();
     }
 
     @Entao("^vejo a tela home$")
-    public void vejoATelaHome() {
-        this.login.validoHome();
+    public void vejoatelahome() {
+        this.login.logado();
     }
-
 }

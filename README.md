@@ -1,6 +1,6 @@
 #QA Mobile
 
-Projeto Final Qazando - Appium + Java
+Project Appium maven with cucumber for Android and iOS
 
 ## Requirements
 
@@ -33,11 +33,5 @@ Projeto Final Qazando - Appium + Java
 * **[cucumber.io](https://cucumber.io/docs/guides/10-minute-tutorial/)**
 * **[pagefactory](https://github.com/appium/java-client/blob/master/docs/Page-objects.md)**
 
-
-
-
-
-
-
-
-
+## Comando utilizando o driver:
+ getDriver().hideKeyboard();

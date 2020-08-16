@@ -2,12 +2,9 @@ package capabilities;
 
 import org.openqa.selenium.remote.DesiredCapabilities;
 
-import capabilities.Load_capabilities;
-
 import java.io.File;
 
 public enum AndroidDevicesCapabilities {
-
 
     ANDROID("resources/capabilities/android-oreo.json"),
     ANDROID_FISICO("resources/capabilities/android-fisico.json");
